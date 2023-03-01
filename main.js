@@ -19,7 +19,7 @@ function isPrime() {
 }
 
 while (counter <= number){
-    if (isPrime() == true){
+    if (isPrime() == true && input % counter == 0){
         primeFactors.push(counter);
         console.log("Processing number: " + counter);
     }
